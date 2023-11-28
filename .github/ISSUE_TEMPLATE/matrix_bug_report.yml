@@ -1,7 +1,6 @@
 name:  Bug Report
 description: Report a bug with Matrix on WordPress.org
 
-title: ""
 labels: ["Bug"]
 projects: "WordPress/150"
 body:
