@@ -1,0 +1,57 @@
+name:  Bug Report
+description: Report a bug with Matrix on WordPress.org
+
+title: ""
+labels: ["Bug"]
+projects: "WordPress/150"
+body:
+  ## A clear and concise description of what you expected to happen.
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      placeholder: Describe what you expected to happen...
+
+  ## A clear and concise description of what actually happened.
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      placeholder: Describe what actually happened...
+
+  ## Clear steps to reproduce the bug.
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error...
+
+  ## Operating System, Browser/Client, Version, etc.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        - Operating System: [e.g., Windows, macOS, Linux]
+        - Browser: [e.g., Chrome, Firefox]
+        - Client: [e.g., Element Web, Chatrix, a URL like matrix.wordpress.net]
+        - Version: [e.g., 1.0.0, latest commit hash]
+
+  ## Screenshots or screen recordings if applicable.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: Drag and drop or paste screenshots here...
+
+  ## Any additional information or context about the bug.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      placeholder: Add any additional information here...
+
